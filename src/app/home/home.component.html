@@ -1,1 +1,7 @@
-<p>home works!</p>
+<app-greeting [message]="message()" [name]="name()" />
+<input
+    placeholder="Enter your next quest!"
+    type="text"
+    (keyup)="handleKeyUp($event)"
+/>
+<app-counter />
